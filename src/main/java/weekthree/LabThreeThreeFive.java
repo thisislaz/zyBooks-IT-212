@@ -17,13 +17,10 @@ public class LabThreeThreeFive {
         System.out.println("Enter arrow base width:");
         arrowBaseWidth = scnr.nextInt();
 
-        System.out.println("Enter arrow head width:");
-        arrowHeadWidth = scnr.nextInt();
-
-        while(arrowHeadWidth <= arrowBaseWidth) {
+        do {
             System.out.println("Enter arrow head width:");
             arrowHeadWidth = scnr.nextInt();
-        }
+        } while (arrowHeadWidth <= arrowBaseWidth);
         System.out.println("");
 
         for (int i = 0; i < arrowBaseHeight; i++) {
