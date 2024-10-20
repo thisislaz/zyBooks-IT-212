@@ -7,7 +7,7 @@ public class Dog {
     private int dogWeight;
     private String grooming;
 
-    // Default constructor for the Dog class
+    // Default constructor for the projecttwo.Dog class
     public Dog() {
         this.dogSpaceNumber = 01;
         this.dogWeight = 15;

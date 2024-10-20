@@ -30,6 +30,7 @@ public class Monkey extends RescueAnimal{
         setTrainingStatus(trainingStatus);
         setReserved(reserved);
         setInServiceCountry(inServiceCountry);
+        setAnimalType("monkey");
     }
 
     // accessor methods

@@ -34,7 +34,7 @@ public class LabTwoOneZeroThree {
 
             dog1.setYear(userYear);
             dog1.createLicenseNum(userId);
-            System.out.println("Dog license: " + dog1.getLicenseNum());
+            System.out.println("projecttwo.Dog license: " + dog1.getLicenseNum());
 
         }
     }
